@@ -1,0 +1,19 @@
+{
+  "dockerFile": "Dockerfile",
+  "features": {
+    "ghcr.io/anthropics/devcontainer-features/claude-code:1.0": {}
+  },
+  "postStartCommand": "npx --yes google-artifactregistry-auth && npm update",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "openai.chatgpt",
+        "gruntfuggly.todo-tree",
+        "mermaidchart.vscode-mermaid-chart",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "hashicorp.terraform"
+      ]
+    }
+  }
+}
