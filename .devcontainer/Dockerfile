@@ -1,6 +1,7 @@
 FROM mcr.microsoft.com/devcontainers/javascript-node:24
 
-# Install Nodemon
+# Install pnpm & Nodemon
+RUN npm install -g pnpm
 RUN npm install -g nodemon
 
 # Install gcloud CLI

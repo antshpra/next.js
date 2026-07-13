@@ -8,8 +8,6 @@
     "vscode": {
       "extensions": [
         "openai.chatgpt",
-        "gruntfuggly.todo-tree",
-        "mermaidchart.vscode-mermaid-chart",
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
         "hashicorp.terraform"
